@@ -23,6 +23,7 @@ app.post('/api', (request, response) => {
     database.insert(data);
     response.json({
         status: 'success',
+        //adds timestamp to JSON object
         timestamp: timestamp,
         latitude: data.lat,
         longitude: data.lon
