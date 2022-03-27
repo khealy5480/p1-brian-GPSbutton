@@ -16,8 +16,8 @@
         <button id="geolocate">Find my GPS coordinates</button>
 
     <script>
-        // document.getElementById('geolocate').addEventListener('click', event => {
-            //Use Navigator Interface to pull in user location
+    document.getElementById('geolocate').addEventListener('click', event => {
+        //Use Navigator Interface to pull in user location
         if('geolocation' in navigator) {
             console.log('geolocation available');
             navigator.geolocation.getCurrentPosition(async position => { 
@@ -43,6 +43,7 @@
         } else {
             console.log('geoloc. not available');
         }
+	})
     </script>
 </body>
 </html>
