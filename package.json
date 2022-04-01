@@ -1,0 +1,15 @@
+{
+  "name": "p1-jsapi2",
+  "version": "1.0.0",
+  "description": "dogPic REST App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Brian",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.3",
+    "nedb": "^1.8.0"
+  }
+}
